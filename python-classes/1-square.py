@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!usr/bin/python3
 """This model is used to create Square class"""
 
 
