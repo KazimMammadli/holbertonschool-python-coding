@@ -7,13 +7,13 @@ class Square:
     def __init__(self, size=0):
         """Initializes size of the square"""
         self.__size = size
+        
     @property
-    
     def size(self):
         """Retrieves the size of square"""
         return self.__size
-    @size.setter
     
+    @size.setter
     def size(self, value):
         """Sets the size of square if there is no exception"""
         if not isinstance(value, int):
